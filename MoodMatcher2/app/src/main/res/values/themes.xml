@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base app theme -->
+    <style name="Theme.MoodMatcher" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <!-- Remove colorSecondaryContainer unless you're using a custom theme extension -->
+    </style>
+
+    <!-- Splash Screen theme -->
+    <style name="Theme.MoodMatcher.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.MoodMatcher</item>
+    </style>
+</resources>
