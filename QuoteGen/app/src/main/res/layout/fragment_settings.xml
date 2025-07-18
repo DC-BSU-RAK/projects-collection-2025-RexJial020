@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/filter_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/author_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter by Author:"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/authorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/category_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter by Quote Type:"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/switch_dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
